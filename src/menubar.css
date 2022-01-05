@@ -1,0 +1,30 @@
+.menu-bar { 
+     height: 35px;  
+     display: flex;
+     justify-self: center;
+     justify-content: space-around;
+     background-color: rgb(3, 19, 54);
+     color: white;
+     position: sticky;
+    }
+
+    .links{ 
+         align-self: center;
+         padding: 5px;
+         font-family: sans-serif;
+         color: white;
+         text-decoration: none;
+        
+     }
+
+    .links:hover {   
+        border-radius: 5px;
+        background-color: rgb(112, 114, 114);
+       cursor: pointer;
+     }
+     .active-btn{   
+      border-radius: 5px;
+      background-color: rgb(112, 114, 114);
+     cursor: pointer;
+   }
+     
